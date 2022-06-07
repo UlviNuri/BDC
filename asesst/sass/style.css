@@ -1,3 +1,11 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 nav {
   width: 100%;
   height: 50px;
@@ -77,7 +85,7 @@ nav .nav-link .lang i {
   background-color: #f3f3f3;
   width: 80%;
   margin-left: 10%;
-  border-top-left-radius: 10%;
+  border-radius: 50px;
 }
 
 #basic-sect .social-icon {
@@ -100,33 +108,180 @@ nav .nav-link .lang i {
   cursor: pointer;
 }
 
-#basic-sect .img {
-  width: 70%;
-  height: 50px;
-  border: 1px solid;
-  background-color: black;
+#basic-sect .left {
+  width: 100%;
 }
 
-#basic-sect .img .left p {
+#basic-sect .left .konkurs {
+  width: 50%;
+  height: 50px;
+  border: 1px solid;
+  background: #262626;
+  border-radius: 50px;
+}
+
+#basic-sect .left .konkurs a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+#basic-sect .left .konkurs a .vector {
+  width: 10%;
+  height: 5%;
+}
+
+#basic-sect .left .konkurs a p {
+  margin: 0;
   color: #f3f3f3;
 }
 
-#basic-sect .img .left div .text {
-  color: black;
-  font-size: 3rem;
-  font-weight: 800;
-  width: 80%;
+#basic-sect .left .konkurs img {
+  width: 10%;
 }
 
-#basic-sect .img .left div p {
-  color: black;
-}
-
-#basic-sect .right img {
+#basic-sect .text {
   width: 100%;
-  height: 450px;
-  -o-object-fit: contain;
-     object-fit: contain;
+}
+
+#basic-sect .text .t {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 60%;
+  text-align: start;
+}
+
+#basic-sect .text div p {
+  font-weight: 500;
+  line-height: 24px;
+}
+
+#basic-sect .button {
+  width: 70%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+}
+
+#basic-sect .button button {
+  width: 90%;
+  height: 50px;
+  background-color: #ffc700;
+  border-radius: 50px;
+  border: none;
+}
+
+#basic-sect .button button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#basic-sect .button .left-text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#basic-sect .button .left-text p {
+  margin: 0;
+}
+
+#basic-sect .button .left-text span {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#basic-sect .img {
+  width: 100%;
+  border: 50px;
+}
+
+#basic-sect .img img {
+  width: 100%;
+  border: 50px;
+}
+
+#kurslar {
+  width: 70%;
+  margin-left: 15%;
+}
+
+#kurslar .info {
+  width: 30%;
+}
+
+#kurslar .info p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#kurslar .dizayn {
+  width: 100%;
+}
+
+#kurslar .dizayn button {
+  width: 20%;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 25px;
+}
+
+#kurslar .dizayn button:hover {
+  background-color: #ffc700;
+  border: none;
+}
+
+#kurslar .dizayn .b-hover {
+  background-color: #ffc700;
+  border: none;
+}
+
+#kurslar .dizayn a {
+  color: black;
+  font-weight: bold;
+}
+
+#kurslar .dizayn .b {
+  width: 18%;
+  margin-top: 15px;
+  padding: 0 45px;
+  margin-left: 15px;
+}
+
+#kurslar div .text-2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#kurslar div p {
+  font-weight: 600;
+}
+
+#kurslar .student {
+  width: 100%;
+  border: 1px solid;
+  height: 200px;
 }
 
 *, * {

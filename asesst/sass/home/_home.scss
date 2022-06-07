@@ -1,3 +1,11 @@
+a{
+  text-decoration: none;
+
+}
+
+li{
+  list-style: none;
+}
 nav {
   width: 100%;
   height: 50px;
@@ -56,9 +64,9 @@ nav {
 
 #basic-sect {
   background-color: #f3f3f3;
-    width: 80%;
-    margin-left: 10%;
-    border-top-left-radius: 10%;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 50px;
   .social-icon {
     width: 90%;
     height: 35px;
@@ -75,44 +83,167 @@ nav {
     }
   }
 
+  .left {
+    width: 100%;
 
-  .img {
-    width: 70%;
-    height: 50px;
-    border: 1px solid;
-    background-color: black ;
-    
+    .konkurs {
+      width: 50%;
+      height: 50px;
+      border: 1px solid;
+      background: #262626;
+      border-radius: 50px;
 
-    .left{
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 100%;
 
-        p{
-        color: #f3f3f3;
+        .vector {
+          width: 10%;
+          height: 5%;
         }
-
-        div{
-            .text{
-                color: black;
-                font-size: 3rem;
-                font-weight: 800;
-                width: 80%;
-            }
-
-            p{
-                color: black;
-            }
+        p {
+          margin: 0;
+          color: #f3f3f3;
         }
+      }
+
+      img {
+        width: 10%;
+      }
+    }
+  }
+  .text {
+    width: 100%;
+
+    .t {
+      font-size: 3rem;
+      font-weight: bold;
+      width: 60%;
+      text-align: start;
+    }
+
+    div {
+      p {
+        font-weight: 500;
+        line-height: 24px;
+      }
     }
   }
 
-  .right{
-      
-    
-        img{
-            width: 100%;
-            height: 450px;
-            object-fit: contain;
+  .button {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    button {
+      width: 90%;
+      height: 50px;
+      background-color: #ffc700;
+      border-radius: 50px;
+      border: none;
 
-        }
-    
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+    }
+    .left-text {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      p {
+        margin: 0;
+      }
+
+      span {
+        color: #ff0000;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .img {
+    width: 100%;
+    // height: 250px;
+    border: 50px;
+    img {
+      width: 100%;
+      border: 50px;
+    }
   }
 }
+
+#kurslar {
+  width: 70%;
+  
+  margin-left: 15%;
+
+  .info {
+    width: 30%;
+
+    p {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+  }
+
+  .dizayn{
+      width: 100%;
+    button{
+      width: 20%;
+      height: 50px;
+      border-radius: 50px;
+      margin-left: 25px;
+      
+      &:hover{
+        background-color: #ffc700;
+        border: none;
+      }
+    
+    }
+    .b-hover{
+      background-color: #ffc700;
+      border: none;
+    } 
+    a{
+      color: black;
+      font-weight: bold;
+      
+    }
+
+    .b{
+      width: 18%;
+      margin-top: 15px;
+      padding: 0 45px;
+      margin-left: 15px;
+    }
+  }
+
+  div{
+
+    .text-2{
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    p{
+      font-weight: 600;
+    }
+  }
+
+  .student{
+    width: 100%;
+    border: 1px solid;
+    height: 200px;
+
+  }
+}
+
