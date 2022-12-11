@@ -10,52 +10,33 @@ nav {
   width: 100%;
   height: 50px;
 }
-
 nav img {
   margin-top: 5px;
 }
-
 nav .nav-link {
   width: 90%;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 nav .nav-link ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
   height: 50px;
 }
-
 nav .nav-link ul a {
   text-decoration: none;
   color: black;
 }
-
 nav .nav-link .lang {
   width: 10%;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 nav .nav-link .lang p {
   padding: 0;
   margin: 0;
@@ -64,21 +45,14 @@ nav .nav-link .lang p {
   background: #f3f3f3;
   border-radius: 50%;
 }
-
 nav .nav-link .lang i {
   background-color: #ffc700;
   width: 50%;
   height: 40px;
   border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #basic-sect {
@@ -87,31 +61,22 @@ nav .nav-link .lang i {
   margin-left: 10%;
   border-radius: 50px;
 }
-
 #basic-sect .social-icon {
   width: 90%;
   height: 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   padding: 0 15px;
 }
-
 #basic-sect .social-icon i {
   padding: 0 10px;
 }
-
 #basic-sect .social-icon i:hover {
   cursor: pointer;
 }
-
 #basic-sect .left {
   width: 100%;
 }
-
 #basic-sect .left .konkurs {
   width: 50%;
   height: 50px;
@@ -119,63 +84,44 @@ nav .nav-link .lang i {
   background: #262626;
   border-radius: 50px;
 }
-
 #basic-sect .left .konkurs a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   width: 100%;
 }
-
 #basic-sect .left .konkurs a .vector {
   width: 10%;
   height: 5%;
 }
-
 #basic-sect .left .konkurs a p {
   margin: 0;
   color: #f3f3f3;
 }
-
 #basic-sect .left .konkurs img {
   width: 10%;
 }
-
 #basic-sect .text {
   width: 100%;
 }
-
 #basic-sect .text .t {
   font-size: 3rem;
   font-weight: bold;
   width: 60%;
   text-align: start;
 }
-
 #basic-sect .text div p {
   font-weight: 500;
   line-height: 24px;
 }
-
 #basic-sect .button {
   width: 70%;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 0 20px;
 }
-
 #basic-sect .button button {
   width: 90%;
   height: 50px;
@@ -183,101 +129,83 @@ nav .nav-link .lang i {
   border-radius: 50px;
   border: none;
 }
-
 #basic-sect .button button a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-
 #basic-sect .button .left-text {
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
-
 #basic-sect .button .left-text p {
   margin: 0;
 }
-
 #basic-sect .button .left-text span {
   color: #ff0000;
   font-weight: bold;
   font-size: 1.2rem;
 }
-
 #basic-sect .img {
   width: 100%;
   border: 50px;
 }
-
 #basic-sect .img img {
   width: 100%;
   border: 50px;
+}
+#basic-sect .swiper {
+  width: 100%;
+  height: 100%;
 }
 
 #kurslar {
   width: 70%;
   margin-left: 15%;
 }
-
 #kurslar .info {
   width: 30%;
 }
-
 #kurslar .info p {
   font-weight: 600;
   font-size: 1rem;
 }
-
 #kurslar .dizayn {
   width: 100%;
 }
-
 #kurslar .dizayn button {
   width: 20%;
   height: 50px;
   border-radius: 50px;
   margin-left: 25px;
 }
-
 #kurslar .dizayn button:hover {
   background-color: #ffc700;
   border: none;
 }
-
 #kurslar .dizayn .b-hover {
   background-color: #ffc700;
   border: none;
 }
-
 #kurslar .dizayn a {
   color: black;
   font-weight: bold;
 }
-
 #kurslar .dizayn .b {
   width: 18%;
   margin-top: 15px;
   padding: 0 45px;
   margin-left: 15px;
 }
-
 #kurslar div .text-2 {
   font-size: 2rem;
   font-weight: 700;
 }
-
 #kurslar div p {
   font-weight: 600;
 }
-
 #kurslar .student {
   width: 100%;
   border: 1px solid;
@@ -287,8 +215,6 @@ nav .nav-link .lang i {
 *, * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
